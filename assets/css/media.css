@@ -1,0 +1,38 @@
+@media(max-width: 900px)
+{
+    h1,h2,h3 {
+        font-size: 20px !important;
+    }
+    h4 {
+        font-size: 18px !important;
+    }
+    h5 {
+        font-size: 16px !important;
+    }
+    h6 {
+        font-size: 14px !important;
+    }
+    p , a , li {
+        font-size: 12px !important;
+    }
+    .mobile-none{
+        display: none !important;
+    }
+    .screen-none{
+        display: block !important;
+    }
+    header .owl-header .item::after{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 69%) !important;
+    }
+    .general-section
+    {
+        padding: 50px 0px;
+    }
+    .order-mobile-0
+    {
+        order: 0 !important;
+    }
+    .order-mobile-1{
+        order: 1 !important;
+    }
+}
